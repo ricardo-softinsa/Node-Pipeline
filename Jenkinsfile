@@ -15,6 +15,7 @@ pipeline{
 	  stage('SonarQube analysis') {
 		steps{
 			echo "SonarQube analysis"
+			echo "${scannerHome}"
 			withSonarQubeEnv('SonarServer') {
 			  sh "\"${scannerHome}/bin/sonar-scanner\""
 			}
