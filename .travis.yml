@@ -1,1 +1,3 @@
 language: node_js
+notifications:
+  webhooks: https://outlook.office.com/webhook/2440de12-bad9-4ed3-8373-f87b862dc0e6@39c83d5e-cede-42d1-962f-c6a853ab7cf5/TravisCI/2ee57fa03d124d098fc6d0b8300148f7/a510cf19-d179-4e63-a08e-f5b68fac47ba
