@@ -6,7 +6,7 @@ changed this one on code
 
 
 
-var= 100
+var= 500
 modified here 2
 changed this one on code
 
