@@ -1,4 +1,4 @@
-pipeline{
+pipeline{ 
 	environment{
 		scannerHome = tool 'Scanner';
 		slackMet = load 'slackNotifications.groovy';
