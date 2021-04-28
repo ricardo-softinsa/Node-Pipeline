@@ -7,7 +7,7 @@ pipeline{
 	agent any
 	
 	stages{
-	  stage('SCMM') {
+	  stage('This is master') {
 		steps{
 			git 'https://github.com/ricardo-softinsa/Node-Pipeline.git'
 		}
