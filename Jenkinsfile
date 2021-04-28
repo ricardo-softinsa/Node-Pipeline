@@ -7,7 +7,7 @@ pipeline{
 	agent any
 	
 	stages{
-	  stage('Changed this name') {
+	  stage('This is branch_test_1') {
 		steps{
 			git 'https://github.com/ricardo-softinsa/Node-Pipeline.git'
 		}
