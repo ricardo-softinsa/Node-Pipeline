@@ -12,7 +12,7 @@ pipeline{
 			git 'https://github.com/ricardo-softinsa/Node-Pipeline.git'
 		}
 	  }
-	  stage('SonarQube analysis') {
+	  stage('SonarQube analysis - master') {
 		steps{
 			echo "SonarQube analysis"
 			echo "${scannerHome}"
