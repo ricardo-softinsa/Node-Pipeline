@@ -7,7 +7,7 @@ pipeline{
 	agent any
 	
 	stages{
-	  stage('This is master') {
+	  stage('This is pull test') {
 		steps{
 			git 'https://github.com/ricardo-softinsa/Node-Pipeline.git'
 		}
