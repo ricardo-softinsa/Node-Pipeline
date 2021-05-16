@@ -1,6 +1,6 @@
 vcap-local.json
 node_modules
 test_ignore/*_ignoreFile
-test_ignore/*_ignoreFile
+test_ignore/*_ignoreFilee
 test_ignore/f5.html
 test_block/*
