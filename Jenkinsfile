@@ -54,7 +54,7 @@ pipeline{
 					slackSend color: "danger", message: "${env.JOB_NAME} #${env.BUILD_NUMBER} - Your app is down..."
 				}
 			}
-		}
+		} 
 	  }
 	}
 	post{
