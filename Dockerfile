@@ -8,6 +8,7 @@ RUN cd /app; npm install
 
 ENV NODE_ENV production
 ENV PORT 8080
+ENV VAR VALUE
 EXPOSE 8080   
 
 WORKDIR "/app"
